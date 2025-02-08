@@ -20,8 +20,8 @@ RestartSec=1
 ExecStart=/FreezyArena/cheesy-arena
 WorkingDirectory=/FreezyArena/
 [Install]
-WantedBy=multi-user.target
-go build" > FreezyArena.service
+WantedBy=multi-user.target" > FreezyArena.service
+go build
 
 systemctl link /FreezyArena/FreezyArena.service
 systemctl enable FreezyArena.service
