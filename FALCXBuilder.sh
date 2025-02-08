@@ -16,4 +16,4 @@ cp ./FreezyArena.service /FreezyArena
 cd /FreezyArena
 go build
 
-systemctl link /FreezArena/FreezyArena.service
+systemctl link /FreezyArena/FreezyArena.service
