@@ -17,7 +17,7 @@ Description=Freezy Arena Services
 [Service]
 Type=Simple
 RestartSec=1
-ExecStart=/FreezyArena/cheesy-arena-lite
+ExecStart=/FreezyArena/cheesy-arena
 WorkingDirectory=/FreezyArena/
 [Install]
 WantedBy=multi-user.target
